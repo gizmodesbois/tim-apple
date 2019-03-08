@@ -6,6 +6,7 @@
   "homepage_url": "http://henrottesimon.com",
   "default_locale": "en",
   "content_scripts": [{
+    "exclude_matches": ["https://github.com/gizmodesbois/tim-apple"],
     "matches": ["*://*/*"],
     "js": ["src/custom.js"]
   }]

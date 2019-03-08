@@ -4,7 +4,7 @@ var searchValue = ['Tim Cook', 'tim cook'];
 for (j = 0; j < searchValue.length; j++) {
   for (i = 0; i < all.length; i++) {
     if (all[i].innerHTML.indexOf(searchValue[j]) > -1) {
-      all[i].innerHTML = "Tim Apple"
+      all[i].innerHTML = all[i].innerHTML.replace(searchValue[j], "Tim Apple")
     }
   }
 }
