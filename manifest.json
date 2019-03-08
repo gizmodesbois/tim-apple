@@ -1,0 +1,12 @@
+{
+  "name": "Tim Apple",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Will replace Tim Cook by Tim Apple",
+  "homepage_url": "http://henrottesimon.com",
+  "default_locale": "en",
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "js": ["src/custom.js"]
+  }]
+}
