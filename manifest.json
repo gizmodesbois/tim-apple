@@ -7,7 +7,7 @@
   "default_locale": "en",
   "content_scripts": [{
     "exclude_matches": ["https://github.com/gizmodesbois/tim-apple"],
-    "matches": ["*://*/*"],
+    "matches": ["https://www.apple.com/**"],
     "js": ["src/custom.js"]
   }]
 }
